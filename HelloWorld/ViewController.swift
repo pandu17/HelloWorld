@@ -16,11 +16,16 @@ class ViewController: UIViewController {
         
         print("Hello World")
         print("this is the first commit")
+        print("this is the second commit")
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
+    }
+    
+    func check(){
+        print("check")
     }
 
 
